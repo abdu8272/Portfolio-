@@ -1,0 +1,53 @@
+.projects {
+      margin-top: -5%;
+      margin-bottom: 100px;
+      h2 {
+        font-size: 45px;
+        line-height: 80.45px;
+        margin-top: 30px;
+
+        font-family: 'Arial', sans-serif;
+      }
+    
+      .project_card {
+        width: 350px;
+        height: 450px;
+        margin-top: 50px;
+        background-size: cover;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        transition: transform 0.3s ease-in-out;
+        img {
+          width: 330px;
+          height: 430px;
+          border-radius: 15px;
+          object-fit: cover;
+        }
+        img:nth-child(1) {
+          height: 430px;
+        }
+        h3 {
+          width: 340px;
+          font-family: 'Arial', sans-serif;
+          font-size: 25px;
+          line-height: 36.3px;
+          text-align: center;
+          margin-top: 20px;
+        }
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+    .project_box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    
